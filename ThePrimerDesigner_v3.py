@@ -1,5 +1,4 @@
 #!/usr/bin/env python3
-# -*- coding: utf-8 -*-
 """
 ThePrimerDesigner — SNP-anchored PCR primer designer
 Version 3.0 (first public release)
@@ -12,6 +11,7 @@ Given a TSV of variant sites (RefID, Genotype/Lineage/Variant/SNPname, Position,
 
 """
 
+# ---------------------- Args ----------------------
 import argparse
 import csv
 from concurrent.futures import ThreadPoolExecutor, as_completed
@@ -189,3 +189,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
