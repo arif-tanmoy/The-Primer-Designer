@@ -97,7 +97,7 @@ python ThePrimerDesigner.py \
   -t 8
 ```
 
-> Your script may use `--product-range` (hyphenated) or `--product_range` (underscored) depending on the version—use the one your CLI help shows.
+> You can try using `--product-range` (hyphenated) or `--product_range` (underscored) depending on the version—use the one your CLI help shows.
 
 ### Command-line options
 
