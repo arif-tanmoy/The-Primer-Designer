@@ -1,4 +1,4 @@
-# The-Primer-Designer
+# The Primer Designer
 **SNP-anchored PCR primer designer.**
 
 Given a TSV of variant sites (**RefID, Genotype/Lineage/Variant/SNPname, Position, RefBase, AltBase**) and a reference FASTA, this script designs one or more PCR primer pairs that amplify a region *containing* the SNP. You can fix the PCR **product size range**, **primer length**, **primer Tm**, the **maximum ΔTm** within a pair, and the **number of pairs** to return.
